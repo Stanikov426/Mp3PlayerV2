@@ -16,6 +16,7 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.TableView;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.media.MediaView;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
 import javafx.stage.FileChooser.ExtensionFilter;
@@ -26,7 +27,7 @@ import pl.stanikov.mp3playerv2.mp3.Mp3Player;
 import pl.stanikov.mp3playerv2.mp3.Mp3Song;
  
 public class MainController implements Initializable {
- 
+	
     @FXML
     private ContentPaneController contentPaneController;
     @FXML

@@ -21,10 +21,10 @@
                             text="Close" />
                     </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="Help">
+                <Menu mnemonicParsing="false" text="Extra">
                     <items>
                         <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false"
-                            text="About" />
+                            text="Open video file" />
                     </items>
                 </Menu>
             </menus>
